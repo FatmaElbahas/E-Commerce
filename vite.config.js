@@ -1,6 +1,9 @@
-export default defineConfig({
+import react from '@vitejs/plugin-react'
+import tailwindcss from '@tailwindcss/vite'
+
+export default {
   plugins: [react(), tailwindcss()],
   build: {
-    outDir: 'dist'
+    outDir: 'dist' // ← دا مهم لـ Vercel
   }
-})
+}
