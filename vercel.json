@@ -7,8 +7,5 @@
   ],
   "routes": [
     { "src": "/(.*)", "dest": "/" }
-  ],
-  "static": {
-    "distDir": "dist"
-  }
+  ]
 }
